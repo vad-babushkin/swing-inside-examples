@@ -1,0 +1,24 @@
+# Intellij IDEA projects stuff
+.idea/
+*.iws
+*.ipr
+*.iml
+*.ids
+
+# Intellij IDEA plugins stuff
+atlassian-ide-plugin.xml
+
+# Intellij IDEA sub-modules stuff
+*/*.iml
+
+# Project's compiled files
+*/target/
+
+.flattened-pom.xml
+/target/
+
+prefuse-caffe-layout-visualization/logs/*
+
+logs/*
+
+treefuse.treeml
