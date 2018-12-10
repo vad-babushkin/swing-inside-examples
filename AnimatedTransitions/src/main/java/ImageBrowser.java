@@ -145,7 +145,7 @@ public class ImageBrowser extends JComponent
      */
     private void loadImages() {
         try {
-            File imagesDir = new File("images");
+            File imagesDir = new File("AnimatedTransitions/images");
             FileTreeWalker walker = new FileTreeWalker(imagesDir, 
                     new UnixGlobFileFilter("*.jpg"));
             walker.walk(new FileTreeWalk() {
